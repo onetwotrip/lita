@@ -1,0 +1,11 @@
+source 'https://rubygems.org'
+
+gem 'lita', '~> 4.6'
+gem 'lita-jenkins', '~>0.1.0', git: 'https://github.com/onetwotrip/lita-jenkins.git'
+gem 'lita-jira', git: 'https://github.com/esigler/lita-jira.git'
+gem 'lita-jira-issues'
+gem 'lita-log', '~>0.3.0', git: 'https://github.com/onetwotrip/lita-log.git'
+gem 'lita-slack', git: 'https://github.com/onetwotrip/lita-slack.git'
+gem 'lita-trello'
+gem 'lita-whois'
+gem 'lita_dotenv'
