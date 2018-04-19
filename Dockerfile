@@ -9,8 +9,5 @@ WORKDIR /lita
 ADD Gemfile* /lita/
 RUN bundle install --without development test --clean
 
-# Add config
-# ADD lita_config.rb /lita/
-
 # Run lita
 CMD ln -s k8s_config/lita_config.rb lita_config.rb && bundle exec lita
