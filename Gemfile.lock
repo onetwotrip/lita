@@ -8,7 +8,7 @@ GIT
 
 GIT
   remote: https://github.com/onetwotrip/lita-jenkins.git
-  revision: bf0ec4978f53fa88db08c976169c75eaed030943
+  revision: cd08a6241b0de04a4b337f7136b5ab576d76c79c
   specs:
     lita-jenkins (0.1.7)
       http
@@ -17,11 +17,19 @@ GIT
 
 GIT
   remote: https://github.com/onetwotrip/lita-log.git
-  revision: ba87c464c8669f7ffde74b732028320df1ab8c53
+  revision: 7fe1b930152a042ae2ccb2570385599661874cb2
   specs:
-    lita-log (0.3.5)
+    lita-log (0.4.0)
       elasticsearch
       lita (>= 4.3)
+
+GIT
+  remote: https://github.com/onetwotrip/lita-punk.git
+  revision: d5c83b9c1cc4094f6b9f535e7cea4bec1a68533b
+  specs:
+    lita-punk (0.2.0)
+      elasticsearch
+      lita (>= 4.7)
 
 GIT
   remote: https://github.com/onetwotrip/lita-slack.git
@@ -49,25 +57,25 @@ GEM
     concurrent-ruby (1.0.5)
     domain_name (0.5.20180417)
       unf (>= 0.0.5, < 1.0.0)
-    dotenv (2.2.2)
-    elasticsearch (6.0.2)
-      elasticsearch-api (= 6.0.2)
-      elasticsearch-transport (= 6.0.2)
-    elasticsearch-api (6.0.2)
+    dotenv (2.4.0)
+    elasticsearch (6.1.0)
+      elasticsearch-api (= 6.1.0)
+      elasticsearch-transport (= 6.1.0)
+    elasticsearch-api (6.1.0)
       multi_json
-    elasticsearch-transport (6.0.2)
+    elasticsearch-transport (6.1.0)
       faraday
       multi_json
     eventmachine (1.2.5)
-    faraday (0.14.0)
+    faraday (0.15.0)
       multipart-post (>= 1.2, < 3)
     faye-websocket (0.10.7)
       eventmachine (>= 0.12.0)
       websocket-driver (>= 0.5.1)
-    http (3.0.0)
+    http (3.3.0)
       addressable (~> 2.3)
       http-cookie (~> 1.0)
-      http-form_data (>= 2.0.0.pre.pre2, < 3)
+      http-form_data (~> 2.0)
       http_parser.rb (~> 0.6.0)
     http-cookie (1.0.3)
       domain_name (~> 0.5)
@@ -128,7 +136,7 @@ GEM
     oauth (0.5.4)
     public_suffix (3.0.2)
     puma (3.11.4)
-    rack (1.6.9)
+    rack (1.6.10)
     rb-readline (0.5.5)
     redis (4.0.1)
     redis-namespace (1.6.0)
@@ -153,7 +161,7 @@ GEM
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.7.5)
-    unicode-display_width (1.3.0)
+    unicode-display_width (1.3.2)
     url_mount (0.2.1)
       rack
     websocket-driver (0.7.0)
@@ -169,7 +177,8 @@ DEPENDENCIES
   lita-jenkins (~> 0.1.0)!
   lita-jira!
   lita-jira-issues
-  lita-log (~> 0.3.0)!
+  lita-log (~> 0.4.0)!
+  lita-punk!
   lita-slack!
   lita-trello
   lita-whois
