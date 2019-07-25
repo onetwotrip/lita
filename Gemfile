@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby   '2.5.1'
+ruby   '2.6.3'
 
 gem 'lita',            '~> 4.6'
 gem 'lita-jenkins',    '~> 0.1.0', git: 'https://github.com/onetwotrip/lita-jenkins.git'
