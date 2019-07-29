@@ -25,9 +25,9 @@ GIT
 
 GIT
   remote: https://github.com/onetwotrip/lita-punk.git
-  revision: 5311809204beadcfff7655407349ac71af607750
+  revision: f879cba9c0f2b786204983465f0117f870438a08
   specs:
-    lita-punk (0.2.1)
+    lita-punk (0.2.2)
       elasticsearch
       lita (>= 4.7)
 
@@ -60,12 +60,12 @@ GEM
     domain_name (0.5.20190701)
       unf (>= 0.0.5, < 1.0.0)
     dotenv (2.7.4)
-    elasticsearch (7.2.0)
-      elasticsearch-api (= 7.2.0)
-      elasticsearch-transport (= 7.2.0)
-    elasticsearch-api (7.2.0)
+    elasticsearch (7.2.1)
+      elasticsearch-api (= 7.2.1)
+      elasticsearch-transport (= 7.2.1)
+    elasticsearch-api (7.2.1)
       multi_json
-    elasticsearch-transport (7.2.0)
+    elasticsearch-transport (7.2.1)
       faraday
       multi_json
     eventmachine (1.2.7)
@@ -194,4 +194,4 @@ RUBY VERSION
    ruby 2.6.3p62
 
 BUNDLED WITH
-   1.17.2
+   1.17.3
