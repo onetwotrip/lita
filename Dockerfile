@@ -9,5 +9,8 @@ WORKDIR /lita
 ADD Gemfile* /lita/
 RUN bundle install --without development test --clean
 
+# For the glory of emojis
+ENV LANG=C.UTF-8
+
 # Run lita
 CMD ln -s k8s_config/lita_config.rb lita_config.rb && bundle exec lita
