@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby   '2.6.3'
 
-gem 'lita',            '~> 4.6'
+gem 'lita',            '~> 4.8'
 gem 'lita-jenkins',    '~> 0.1', git: 'https://github.com/onetwotrip/lita-jenkins.git'
 gem 'lita-jira',       git: 'https://github.com/esigler/lita-jira.git'
 gem 'lita-jira-issues', git: 'https://github.com/onetwotrip/lita-jira-issues.git'

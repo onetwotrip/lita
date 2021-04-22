@@ -7,7 +7,9 @@ WORKDIR /lita
 
 # Installing dependicies
 ADD Gemfile* /lita/
-RUN bundle install --without development test --clean
+RUN gem install bundler
+RUN bundle config set --local without 'development test'
+RUN bundle install
 
 # For the glory of emojis
 ENV LANG=C.UTF-8
