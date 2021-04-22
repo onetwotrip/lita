@@ -209,7 +209,7 @@ DEPENDENCIES
   lita-jenkins (~> 0.1)!
   lita-jira!
   lita-jira-issues!
-  lita-log (~> 0.4.0)!
+  lita-log (~> 0.4)!
   lita-punk!
   lita-slack!
   lita-trello
